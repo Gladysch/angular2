@@ -7,7 +7,7 @@ import { TodoService } from './todo.service';
     selector: 'my-app',
     template: `
     <h1>{{ title }}</h1>
-    <h2>Mis pendientes</h2>
+    <h2>Los pendientes de Gladys</h2>
     <ul class="todos">
       <li *ngFor="let todo of todos"
         [class.selected]="todo === selectedTodo"
